@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.prevent-select {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+nav {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #070F2B;
+}
+
+.head {
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 20px;
+    color: rgb(212, 209, 255);
+}
+
+body {
+    background-color: #9290C3;
+
+}
+
+.stone,
+.paper,
+.scissor {
+    aspect-ratio: 1;
+    height: 10vh;
+    width: auto;
+    border: 3px solid transparent;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #535C91;
+    margin-top: 6rem;
+}
+
+.align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stone:hover,
+.paper:hover,
+.scissor:hover {
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+.scores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.you {
+    margin-right: 10px;
+}
+
+.you,
+.comp {
+    font-size: 20px;
+    background-color: #1B1A55;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: rgb(212, 209, 255);
+}
+
+.res {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.result {
+    font-size: 25px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+    color: aliceblue;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.insta {
+    margin-right: 20px;
+}
+
+.icons {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: black;
+}
